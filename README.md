@@ -1,13 +1,13 @@
 # Deploying SonarQube with Docker Compose
 
-## ✅ Why Use Docker Compose for SonarQube?
+##  Why Use Docker Compose for SonarQube?
 • Simplified Setup: Easily define and run SonarQube and its dependencies in one file.  
 • Portability: Version-controlled configuration that works across environments.  
 • Resource Management: Isolate and manage services with Docker containers.
 
 ---
 
-## 📋 Prerequisites
+##  Prerequisites
 • Docker: Ensure Docker is installed and running.  
 • Docker Compose (CLI v2+): Confirm with:
 ```bash
@@ -34,7 +34,7 @@ sudo sysctl -p
 
 ---
 
-## 🛠️ Step-by-Step Deployment
+##  Step-by-Step Deployment
 
 ### 1. Create a Project Directory
 ```bash
@@ -88,6 +88,7 @@ volumes:
 
 SonarQube Community Build release cycle model:  
 `YY.M.0.BuildNumber`
+![image](https://github.com/user-attachments/assets/91542ae4-3006-45cf-916f-f0c058a9e8d1)
 
 ---
 
@@ -114,7 +115,7 @@ You’ll be prompted to change the password on first login.
 
 ---
 
-## ⚙️ Customization Options
+##  Customization Options
 • **Change the Web Port:**
 ```yaml
 ports:
@@ -126,7 +127,7 @@ ports:
 
 ---
 
-## 🧹 Stopping & Cleaning Up
+##  Stopping & Cleaning Up
 • To stop services:
 ```bash
 docker compose down
